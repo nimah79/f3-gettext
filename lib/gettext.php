@@ -11,7 +11,7 @@
  *  Copyright (c) 2019 ~ NimaH79
  *  Nima HeydariNasab <nima.heydari79@yahoo.com>
  *
- *  @version: 1.0.0
+ *  @version: 1.0.2
  *  @date: 18.07.2019
  *  @since: 18.07.2019
  *
