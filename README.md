@@ -3,7 +3,7 @@ This is a Gettext plugin for the [PHP Fat-Free Framework](https://github.com/bco
 
 It doesn't need PHP gettext extension!
 
-## Installation:
+## Installation
 **1.** Just [download](https://github.com/nimah79/f3-gettext/archive/master.zip) the package and register it to `AUTOLOAD`, or require it with composer:
 `composer require nimah79/f3-gettext`
 
@@ -16,7 +16,7 @@ path=locales/
 
 **3.** Put your .po files in the path you defined.
 
-## Usage:
+## Usage
 Use `__()` instead of `_()` or `gettext()`:
 ```
 echo __('Hello!'); // "سلام!"
