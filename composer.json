@@ -4,6 +4,10 @@
     "keywords": ["F3","fatfree","gettext","language","multilanauge","localization"],
     "homepage": "https://github.com/nimah79/f3-gettext",
     "license": "GPL-3.0",
+    "require": {
+        "php": ">=5.4.0",
+        "php-pcre": "*"
+    },
     "autoload": {
 		"classmap": ["lib/"]
     }
