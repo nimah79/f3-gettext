@@ -7,7 +7,7 @@ It doesn't need PHP gettext extension!
 **1.** Just [download](https://github.com/nimah79/f3-gettext/archive/master.zip) the package and register it to `AUTOLOAD`, or require it with composer:
 `composer require nimah79/f3-gettext`
 
-**2.** Add these lines to your F3 config:
+**2.** Add this sample configuration, or load the [sample ini file](https://github.com/nimah79/f3-gettext/blob/master/gettext_config.ini) (make necessary changes):
 ```
 [GETTEXT]
 language=fa
