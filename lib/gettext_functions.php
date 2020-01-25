@@ -1,7 +1,7 @@
 <?php
 
 /**
- *  This file is a part of Gettext for the PHP Fat-Free Framework
+ *  This file is a part of Gettext for the PHP Fat-Free Framework.
  *
  *  The contents of this file are subject to the terms of the GNU General
  *  Public License Version 3.0. You may not use this file except in
@@ -24,10 +24,8 @@
  *
  * @return string
  */
-
 function __($original)
 {
-
     $f3 = \Base::instance();
 
     $entries = $f3->get('GETTEXT.entries');
@@ -43,6 +41,7 @@ function __($original)
     if (is_array($text) && isset($args[0])) {
         $n = $args[0];
         $i = eval('return '.str_replace('n', '$n', $f3->get('GETTEXT.plural_form')).';');
+
         return is_array($args[0]) ? strtr($text[$i], $args[0]) : vsprintf($text[$i], $args);
     }
 
